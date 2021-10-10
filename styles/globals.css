@@ -1,9 +1,12 @@
-html,
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -11,6 +14,90 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+* { box-sizing: border-box; }
+span { user-select: none; }
+canvas { height: 100% !important; width: 100% !important; }
+
+.rainbow {
+  background: linear-gradient(to bottom, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+.text-3d {
+  text-shadow: 0px 0px 0 rgb(-2,147,246),
+  1px 1px 0 rgb(-11,138,237),
+  2px 2px 0 rgb(-20,129,228),
+  3px 3px 0 rgb(-28,121,220),
+  4px 4px 0 rgb(-37,112,211),
+  5px 5px 0 rgb(-46,103,202),
+  6px 6px 0 rgb(-55,94,193),
+  7px 7px  0 rgb(-64,85,184),
+  8px 8px 7px rgba(0,0,0,0.25),
+  8px 8px 1px rgba(0,0,0,0.5),
+  0px 0px 7px rgba(0,0,0,.2);
+}
+
+.radial-bg {
+  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(56,174,255,0) 25%, rgba(29,163,255,0.196516106442577) 55%, rgba(7,154,255,0) 70%);
+}
+
+
+/* STYLE OF WEBGL LABEL */
+.point {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.point .label {
+	position: absolute;
+	left: -6rem;
+	width: 12rem;
+	border-radius: 10px;
+	background: #00000077;
+	border: 1px solid #ffffff77;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 100;
+	font-size: 1rem;
+	transform: scale(1, 1);
+	transition: transform 0.3s;
+	cursor: pointer;
+}
+.point.behind .label {
+	transition: transform 0.3s;
+	transform: scale(0, 0);
+}
+/* END STYLE OF WEBGL LABEL */
+
+/* LOADING BAR */
+.loading-bar {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+	background: #ffffff;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: .5s;
+}
+.loading-bar.ended {
+	transform: scaleX(0) !important;
+	transform-origin: 100% 0;
+	transition: transform 1.5s ease-in-out;
+}
+/* END LOADING BAR */
+
+@media only screen and (max-width: 300px) { html { font-size: 5px; } }
+@media only screen and (min-width: 301px) and (max-width: 400px) { html { font-size: 7px; } }
+@media only screen and (min-width: 401px) and (max-width: 500px) { html { font-size: 8.5px; } }
+@media only screen and (min-width: 501px) and (max-width: 600px) { html { font-size: 9px; } }
+@media only screen and (min-width: 601px) and (max-width: 700px) { html { font-size: 9.5px; } }
+@media only screen and (min-width: 701px) and (max-width: 800px) { html { font-size: 10px; } }
+@media only screen and (min-width: 801px) and (max-width: 900px) { html { font-size: 10px; } }
+@media only screen and (min-width: 901px) and (max-width: 1000px) { html { font-size: 10px; } }
+@media only screen and (min-width: 1001px) and (max-width: 1100px) { html { font-size: 10px; } }
+@media only screen and (min-width: 1101px) and (max-width: 1200px) { html { font-size: 10px; } }
+@media only screen and (min-width: 1201px) and (max-width: 1300px) { html { font-size: 11px; } }
+@media only screen and (min-width: 1301px) and (max-width: 1400px) { html { font-size: 12px; } }
+@media only screen and (min-width: 1401px) and (max-width: 1500px) { html { font-size: 12px; } }
