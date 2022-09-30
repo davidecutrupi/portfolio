@@ -1,7 +1,7 @@
 import { config, library } from '@fortawesome/fontawesome-svg-core';
 import { faCodeBranch, faRulerCombined } from '@fortawesome/free-solid-svg-icons'
 import { faCopy } from '@fortawesome/free-regular-svg-icons'
-import { faHtml5, faCss3Alt, faSass, faBootstrap, faAngular, faReact, faJsSquare, faNpm, faNodeJs, faGithub, faDocker, faWordpress, faFigma, faAndroid, faTwitter, faInstagram, faDribbble } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3Alt, faSass, faBootstrap, faAngular, faReact, faJsSquare, faNpm, faNodeJs, faGithub, faDocker, faWordpress, faFigma, faAndroid, faTwitter, faInstagram, faDribbble, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 config.autoAddCss = false
 
@@ -34,5 +34,6 @@ library.add(
   faFigma,
   faTwitter,
   faInstagram,
-  faDribbble
+  faDribbble,
+  faLinkedin
 )

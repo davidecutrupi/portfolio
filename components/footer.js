@@ -14,7 +14,7 @@ export const Footer = ({ className }) => {
         </div>
 
         <div className='flex items-center mt-12 sm:mt-0'>
-          <a href='https://www.fiverr.com'><div className='relative w-16 h-16'><Image alt='vercel-icon' src='/icons/fiverr.svg' layout='fill' /></div></a>
+          <a href='https://www.linkedin.com/in/davidecutrupi'><FontAwesomeIcon icon={['fab', 'linkedin']} className='w-12 ml-6' /></a>
           <a href='https://www.dribbble.com/davidecutrupi'><FontAwesomeIcon icon={['fab', 'dribbble']} className='w-12 ml-6' /></a>
           <a href='https://www.github.com/davidecutrupi'><FontAwesomeIcon icon={['fab', 'github']} className='w-12 ml-6' /></a>
           <a href='https://www.twitter.com/davidecutrupii'><FontAwesomeIcon icon={['fab', 'twitter']} className='w-12 ml-6' /></a>
