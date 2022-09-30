@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useState } from "react"
-import { PayPal } from "./paypal"
+import { PayPal } from "components/paypal"
 
 export const SupportMe = ({ className }) => {
 

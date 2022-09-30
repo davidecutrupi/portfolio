@@ -2,14 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
 
-import { Header } from '../components/header'
-import { MainSection } from '../components/main-section'
-import { AboutMe } from '../components/about-me'
-import { Examples } from '../components/examples'
-import { Footer } from '../components/footer'
-import { SupportMe } from '../components/support-me'
+import { Header } from 'components/header'
+import { MainSection } from 'components/main-section'
+import { AboutMe } from 'components/about-me'
+import { Examples } from 'components/examples'
+import { Footer } from 'components/footer'
+import { SupportMe } from 'components/support-me'
 
-import { init } from '../utils/furniture'
+import { init } from 'utils/furniture'
 
 
 
