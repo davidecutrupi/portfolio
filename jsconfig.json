@@ -6,6 +6,7 @@
       "public/*": ["./public/*"],
       "components/*": ["./components/*"],
       "pages/*": ["./pages/*"],
+      "styles/*": ["./styles/*"],
     }
   }
 }
