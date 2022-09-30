@@ -10,7 +10,7 @@ export const Header = ({ className }) => {
 			</div>
 
 			<div className='flex items-center'>
-				<a href='https://mail.google.com/mail/?view=cm&fs=1&to=business@davidecutrupi.com' className='text-2xl font-medium'>Contact me</a>
+				<a href='https://mail.google.com/mail/?view=cm&fs=1&to=davidecutrupi2@gmail.com' className='text-2xl font-medium'>Contact me</a>
 				<Link href='/#about-me'><a className='text-2xl font-medium ml-12 hidden sm:inline'>About me</a></Link>
 				<Link href='/#examples'><a className='ml-12 text-2xl font-medium'>Examples</a></Link>
 				<a href='https://www.fiverr.com' className='ml-12 text-2xl font-medium'>Fiverr</a>

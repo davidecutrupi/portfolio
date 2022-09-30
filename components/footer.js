@@ -10,7 +10,7 @@ export const Footer = ({ className }) => {
         <div className='flex flex-col items-center sm:items-start'>
           <span className='font-light'>For more information, contact me by email.</span>
           <span className='font-light mt-4'>Sustain me with a donation !</span>
-          <span className='font-extralight select-text mt-4 inline sm:hidden'>business@davidecutrupi.com</span>
+          <span className='font-extralight select-text mt-4 inline sm:hidden'>davidecutrupi2@gmail.com</span>
         </div>
 
         <div className='flex items-center mt-12 sm:mt-0'>
@@ -25,12 +25,12 @@ export const Footer = ({ className }) => {
 
       <div className='flex items-center text-xl w-max mx-auto justify-between mt-12'>
         <span className='font-extralight'>© 2021 Davide Cutrupi</span>
-		<div className='flex items-center ml-12 sm:mx-12 md:mx-24 lg:mx-48'>
-			<div className='relative w-6 h-6 mr-2'><Image alt='construction-emoji' src='/emoji/construction.png' layout='fill' /></div>
-	        <span className='font-extralight'>Website continuously updated</span>
-			<div className='relative w-6 h-6 ml-2'><Image alt='construction-emoji' src='/emoji/construction.png' layout='fill' /></div>
-		</div>
-        <span className='font-extralight select-text hidden sm:inline'>business@davidecutrupi.com</span>
+        <div className='flex items-center ml-12 sm:mx-12 md:mx-24 lg:mx-48'>
+          <div className='relative w-6 h-6 mr-2'><Image alt='construction-emoji' src='/emoji/construction.png' layout='fill' /></div>
+          <span className='font-extralight'>Website continuously updated</span>
+          <div className='relative w-6 h-6 ml-2'><Image alt='construction-emoji' src='/emoji/construction.png' layout='fill' /></div>
+        </div>
+        <span className='font-extralight select-text hidden sm:inline'>davidecutrupi2@gmail.com</span>
       </div>
 
     </footer>

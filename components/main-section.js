@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const MainSection = ({ className }) => {
 
-	const copyEmail = () => { navigator.clipboard.writeText('business@davidecutrupi.com') }
+	const copyEmail = () => { navigator.clipboard.writeText('davidecutrupi2@gmail.com') }
 
 	return (	
 		<div className={'flex justify-around ' + className}>
@@ -23,7 +23,7 @@ export const MainSection = ({ className }) => {
 					<span className='font-light'>Write me an email</span>
 					<div className='relative w-6 h-6 ml-2'><Image alt='writingHand-emoji' src='/emoji/writingHand.png' layout='fill' /></div>
 					<div onClick={() => copyEmail()} className='flex items-center ml-8 shadow-xl p-2 rounded-xl border-2 border-black cursor-pointer'>
-						<span>business@davidecutrupi.com</span>
+						<span>davidecutrupi2@gmail.com</span>
 						<FontAwesomeIcon icon={['far', 'copy']} className='w-4 ml-2' />
 					</div>
 				</div>
